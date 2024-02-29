@@ -50,4 +50,5 @@ def create_todo_handler(request:CreateToDoRequest):
 
 
 @app.patch("/todos/{todo_id}")
-def update_todo_handler(todo_id:int)
+def update_todo_handler(todo_id:int):
+    pass
